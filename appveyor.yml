@@ -43,7 +43,25 @@ before_build:
   - cmake -T v141_xp ..
 
 build_script:
-  - cmake --build . --target package --config release
+  - cmake --build . --config release
+  - cd ..
+  - cd data
+  - mkdir drivers
+  - cd drivers
+  - copy ..\..\build\axiomtek\release\axiomtek.dll
+  - copy ..\..\build\candumplog\release\candumplog.dll
+  - copy ..\..\build\cantact\release\cantact.dll
+  - copy ..\..\build\Common\Release\twocanutil.lib
+  - copy ..\..\build\KeesLog\Release\keeslog.dll
+  - copy ..\..\build\Kvaser\Release\kvaser.dll
+  - copy ..\..\build\TwoCanLog\Release\twocanlog.dll
+  - copy ..\..build\YachtDevicesLog\Release\yachtdeviceslog.dll
+  - cd ..
+  - cd ..
+  - cd build
+  - cpack
+
+  # - cmake --build . --target package --config release
   # --target package doesn't work because of nsis not correctly installed
 
 artifacts:

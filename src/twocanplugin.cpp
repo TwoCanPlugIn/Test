@@ -32,7 +32,7 @@
 //
 
 
-#include "twocanplugin.h"
+#include "../inc/twocanplugin.h"
 
 // Globally accessible variables used by the plugin, device and the settings dialog.
 wxFileConfig *configSettings;

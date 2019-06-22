@@ -31,7 +31,7 @@
 // 2. Prevent user selecting both LogFile reader and Log Raw frames !
 //
 
-#include "twocansettings.h"
+#include "../inc/twocansettings.h"
 
 // Constructor and destructor implementation
 // inherits froms TwoCanSettingsBase which was implemented using wxFormBuilder

@@ -28,7 +28,7 @@
 // 1. Any additional functions ??
 //
 
-#include "twocanutils.h"
+#include "../inc/twocanutils.h"
 
 int TwoCanUtils::ConvertByteArrayToInteger(const byte *buf, unsigned int *value) {
 	if ((buf != NULL) && (value != NULL)) {

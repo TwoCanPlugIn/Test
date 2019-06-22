@@ -24,7 +24,7 @@
 // Date: 6/8/2018
 // Version: 1.0
 
-#include "twocanerror.h"
+#include "..\inc\twocanerror.h"
 
 #ifdef __LINUX__
 #include <cerrno>

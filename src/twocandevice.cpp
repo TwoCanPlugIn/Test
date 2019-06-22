@@ -38,7 +38,7 @@
 // 2. Rewrite/Port Adapter drivers to C++
 //
 
-#include "twocandevice.h"
+#include "../inc/twocandevice.h"
 
 TwoCanDevice::TwoCanDevice(wxEvtHandler *handler) : wxThread(wxTHREAD_DETACHED) {
 	// Save a reference to our "parent", the plugin event handler so we can pass events to it
