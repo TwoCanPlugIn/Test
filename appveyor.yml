@@ -55,7 +55,7 @@ build_script:
   - copy ..\..\build\KeesLog\Release\keeslog.dll
   - copy ..\..\build\Kvaser\Release\kvaser.dll
   - copy ..\..\build\TwoCanLog\Release\twocanlog.dll
-  - copy ..\..build\YachtDevicesLog\Release\yachtdeviceslog.dll
+  - copy ..\..\build\YachtDevicesLog\Release\yachtdeviceslog.dll
   - cd ..\
   - cd ..\
   - cd build
