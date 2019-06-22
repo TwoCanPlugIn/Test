@@ -56,8 +56,8 @@ build_script:
   - copy ..\..\build\Kvaser\Release\kvaser.dll
   - copy ..\..\build\TwoCanLog\Release\twocanlog.dll
   - copy ..\..build\YachtDevicesLog\Release\yachtdeviceslog.dll
-  - cd ..
-  - cd ..
+  - cd ..\
+  - cd ..\
   - cd build
   - cpack
 
